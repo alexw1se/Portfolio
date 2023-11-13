@@ -159,10 +159,11 @@ section .header{
 }
 
 .features{
-    margin-top:4rem;
+    margin-top:3rem;
     display:grid;
     grid-template-columns: repeat(4, 1fr) ;
     gap:2rem;
+    margin-left: 15rem;
 }
 
 .features .card{
@@ -174,7 +175,7 @@ section .header{
 
 }
 
-.features .card:hober{
+.features .card:hover{
     background-color: #323232;
     border-color: #fff;
 }
@@ -323,7 +324,7 @@ footer .column .socials a:hover{
     border-color: #1d4ed8;
 }
 
-footeer .column h4{
+footer .column h4{
     color: #fff;
     margin-bottom: 2rem;
     font-size: 1.2rem;
